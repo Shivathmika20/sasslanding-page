@@ -8,10 +8,10 @@ function Navbar() {
     <div className=' bg-black text-white '>
         <div className='flex items-center justify-between p-4 '>
             <div className='border border-white border-opacity-30 rounded-lg'>
-                <Image src={logo}  alt='logo'/>
+                <Image src={logo}  alt='logo' width={40} height={40}/>
             </div>
             <div className='border border-white  border-opacity-30 h-10 w-10 rounded-lg  inline-flex items-center justify-center sm:hidden'>
-                <Image src={icon} alt='icon'/>
+                <Image src={icon} alt='icon'  width={25} height={20}/>
             </div>
             <nav className='items-center gap-6 hidden sm:flex'>
                 <a href="#" className='opacity-60 hover:opacity-100 '>About</a>

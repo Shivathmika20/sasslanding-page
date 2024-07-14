@@ -14,7 +14,7 @@ function Hero() {
                 <span className='bg-[linear-gradient(to_right,#F87AFF,#FB93D0,#FFDD99,#C3F0B2,#2FD8FE)] text-transparent bg-clip-text [webkit-background-clip:text]'>Version 2.0 is here</span>
                 <span className='inline-flex items-center gap-2'>
                   <span>Read more</span>
-                  <Image src={arrow} alt='arrow'/>
+                  <Image src={arrow} alt='arrow' width={20} height={20}/>
                 </span>
             </a>
             <div className='flex justify-center  mt-8 '>
