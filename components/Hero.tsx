@@ -6,7 +6,7 @@ import msg from '../public/message.png'
 
 function Hero() {
   return (
-    <div className='bg-black text-white bg-[linear-gradient(to_bottom,#000,#200D42_34%,#4F21A1_65%,#A46EDB_82%)] py-20 sm:py-22 relative overflow-clip'>
+    <div className='bg-black text-white bg-[linear-gradient(to_bottom,#000,#200D42_34%,#4F21A1_65%,#A46EDB_82%)] py-16 sm:py-22 relative overflow-clip'>
        <div className='absolute bg-black h-[375px] w-[750px] sm:w-[1536px] sm:h-[768px] lg:w-[3000px] lg:h-[1300px] rounded-[100%] left-1/2 -translate-x-1/2 border border-[#B48CDE] bg-[radial-gradient(closest-side,#000_82%,#9560EE)] top-[calc(100%-120px)] sm:top[calc(100%-200px)]'>
        </div> 
         <div className='relative container p-4 flex flex-col justify-center items-center'>
@@ -14,7 +14,7 @@ function Hero() {
                 <span className='bg-[linear-gradient(to_right,#F87AFF,#FB93D0,#FFDD99,#C3F0B2,#2FD8FE)] text-transparent bg-clip-text [webkit-background-clip:text]'>Version 2.0 is here</span>
                 <span className='inline-flex items-center gap-2'>
                   <span>Read more</span>
-                  <Image src={arrow} alt='arrow' />
+                  <Image src={arrow} alt='arrow'/>
                 </span>
             </a>
             <div className='flex justify-center  mt-8 '>
