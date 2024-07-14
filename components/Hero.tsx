@@ -7,7 +7,7 @@ import msg from '../public/message 1.png'
 function Hero() {
   return (
     <div className='bg-black text-white bg-[linear-gradient(to_bottom,#000,#200D42_34%,#4F21A1_65%,#A46EDB_82%)] py-16 sm:py-22 relative overflow-clip '>
-       <div className='absolute bg-black h-[375px] w-[750px] sm:w-[1536px] sm:h-[768px] lg:w-full lg:h-full rounded-[100%] left-1/2 -translate-x-1/2 border border-[#B48CDE] bg-[radial-gradient(closest-side,#000_82%,#9560EE)] top-[calc(100%-120px)] sm:top[calc(100%-200px)]'>
+       <div className='absolute bg-black h-[375px] w-[750px] sm:w-[1536px] sm:h-[768px] lg:w-[2500px] lg:h-[900px] rounded-[100%] left-1/2 -translate-x-1/2 border border-[#B48CDE] bg-[radial-gradient(closest-side,#000_82%,#9560EE)] top-[calc(100%-120px)] sm:top[calc(100%-200px)]'>
        </div> 
         <div className='mx-auto relative container p-4 flex flex-col justify-center items-center'>
             <a href="#" className='border border-white/30 rounded-lg px-2 py-1 inline-flex gap-2'>
