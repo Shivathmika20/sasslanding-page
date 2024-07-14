@@ -5,8 +5,8 @@ import icon from '../public/Icons.png'
 
 function Navbar() {
   return (
-    <div className=' bg-black text-white '>
-        <div className='flex items-center justify-between p-4 '>
+    <div className=' bg-black text-white ' >
+        <div className='flex items-center justify-between p-8 '>
             <div className='border border-white border-opacity-30 rounded-lg'>
                 <Image src={logo}  alt='logo' width={40} height={40}/>
             </div>
