@@ -8,7 +8,7 @@ import utube from '../public/youtube.png'
 import pin from '../public/pinterest.png'
 function Footer() {
   return (
-    <div className='bg-black text-white py-12 sm:py-16'>
+    <div className='bg-black text-white py-8'>
         <div className='px-6 flex flex-col justify-between items-center sm:flex-row border-t border-white/30'>
             <p className='mt-5 text-white/50'>@ 2024 Your Company, Inc. All rights reserved</p>
             <div className='flex gap-4 mt-4 p-3'>
