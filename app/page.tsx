@@ -6,8 +6,7 @@ import Features from "@/components/Features";
 import Showcase from "@/components/Showcase";
 import Faq from "@/components/Faq";
 import Access from "@/components/Access";
-
-
+import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <div className="">
@@ -19,6 +18,7 @@ export default function Home() {
       <Showcase />
       <Faq />
       <Access />
+      <Footer />
     </div>
   );
 }
