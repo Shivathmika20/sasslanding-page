@@ -5,6 +5,7 @@ import Logo from "@/components/Logo"
 import Features from "@/components/Features";
 import Showcase from "@/components/Showcase";
 import Faq from "@/components/Faq";
+import Access from "@/components/Access";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Features />
       <Showcase />
       <Faq />
+      <Access />
     </div>
   );
 }

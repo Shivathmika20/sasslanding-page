@@ -24,9 +24,9 @@ function Features() {
             <h2 className='font-bold text-4xl sm:text-6xl text-center tracking-tighter'>Everything you need</h2>
             <p className='text-center mt-5 text-xl text-white/70 max-w-xl mx-auto'>Enjoy customizable lists, team work tools, and smart tracking all in one place. Set tasks, get reminders, and see your progress simply and quickly.</p>
         
-            <div className='mt-16 flex flex-col sm:flex-row gap-4'>
+            <div className='mt-16 flex flex-col sm:flex-row gap-4 '>
                 {features.map(({title,desc})=>(
-                    <div key={title} className='border border-white/30 rounded-xl px-6 py-10 text-center  sm:flex-1'>
+                    <div key={title} className=' border border-white/30 rounded-xl px-6 py-10 text-center  sm:flex-1'>
                         <div className='inline-flex items-center justify-center rounded-xl text-center bg-white h-14 w-14 ' >
                             <Image src={vec} alt='vector' width={40} height={40} className=''/>
                         </div>
