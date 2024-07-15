@@ -11,13 +11,13 @@ import pulse from '../public/pulse 1.png'
 function Logo() {
    
   return (
-    <div className='bg-black text-white py-16 '>
-        <div className=' flex flex-col justify-center items-center'>
+    <div className='bg-black text-white py-16 sm:py-20 '>
+        <div className=' px-8 flex flex-col justify-center items-center'>
             <h2 className='text-center text-white/50 text-lg'>
             Trusted by the world’s most
             <br className='sm:hidden' /> innovative teams
             </h2>
-            <div className='grid grid-cols-1 mt-8 gap-8 sm:flex sm:gap-10 '>
+            <div className='grid grid-cols-1 mt-8 gap-8 md:flex md:gap-10'>
                 <div className='flex justify-center gap-6 sm:gap-8'>
                 <Image src={acme} alt='acme' width={130} height={80} className='h-9 w-30'/>
                 <Image src={quantum} alt='quantum' width={130} height={100}  className='h-9 w-30'/>
