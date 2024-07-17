@@ -18,7 +18,7 @@ const faq=[
 ]
 function Faq() {
   return (
-    <div className=' text-white bg-gradient-to-b from-[#5D2CA8] to-black py-16 sm:py-20 '>
+    <div className='bg-black text-white bg-gradient-to-b from-[#5D2CA8] to-black py-16 sm:py-20 '>
         <div className='px-6'>
             <h2 className='text-center text-4xl font-bold tracking-tighter sm:text-6xl '>
             Frequently 
