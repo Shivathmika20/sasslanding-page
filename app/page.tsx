@@ -9,7 +9,7 @@ import Access from "@/components/Access";
 import Footer from "@/components/Footer";
 export default function Home() {
   return (
-    <div className="">
+    <div className="w-full max-w-screen-2xl">
       <Banner />
       <Navbar />
       <Hero />

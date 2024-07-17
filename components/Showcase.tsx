@@ -8,7 +8,7 @@ function Showcase() {
         <div className='px-6 mx-auto'>
             <h2 className='text-center font-bold text-4xl sm:text-6xl tracking-tighter'>Intuitive interface</h2>
             <p className='text-center mt-5 text-xl text-white/70 max-w-xl mx-auto'>Celebrate the joy of accomplishment with an app designed to track your progress, motivate your efforts, and celebrate your successes, one task at a time.</p>
-            <Image src={showcase} alt='showcase' width={500} height={500} className='mt-14 mx-auto w-11/12'/>
+            <Image src={showcase} alt='showcase' width={500} height={500} className='mt-14 mx-auto w-1/2'/>
             
         </div>
     </div>
