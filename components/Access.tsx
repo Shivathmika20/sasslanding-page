@@ -4,8 +4,8 @@ import emoji from '../public/emojistar.png'
 import helix from '../public/helix.png'
 function Access() {
   return (
-    <div className='bg-black text-white py-16 sm:py-32 '>
-        <div className='px-4 max-w-xl mx-auto relative'>
+    <div className='bg-black text-white py-16 sm:py-32'>
+        <div className='px-4 max-w-xl mx-auto relative '>
                 <Image src={helix} alt='helix' className='absolute  left-[600px] hidden sm:inline '/>
                 <Image src={emoji} alt='emoji' className='absolute bottom-24 right-[600px] hidden sm:inline'/>
                 
