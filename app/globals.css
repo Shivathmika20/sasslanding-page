@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+:root,
+html,
+body {
+	@apply w-full h-full;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+.marquee {
+    overflow: hidden;
+    /* white-space: nowrap; */
+    box-sizing: border-box;
+  }
+
+  .marquee-content {
+    animation: marquee 15s linear infinite;
+  }
+
+  @keyframes marquee {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
